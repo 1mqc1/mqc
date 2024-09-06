@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background-image: url(body.gif);
+}
+#box{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#footer{
+    text-align: center;
+    background-color: #b2a695;
+    line-height: 25px;
+    padding-top: 20px;    
+}
+.left{
+    float: left;
+}
+#menu{
+    height: 36px;
+    border-top: 8px solid #000;
+}
+#menu a{
+    font-family: "华文新魏";
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    padding: 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+#menu a:hover,#menu a.selected{
+    color: #fff;
+    background-color: #c00;
+}
+#lujing{
+    font-size: 12px;
+    text-align: left;
+    line-height: 35px;
+    background-image: url(navbg.gif);
+    background-repeat: repeat-x;
+    height: 37px;
+}
+#lujing a{
+    color: #333333;
+    text-decoration: none;
+    margin: 0 5px;
+}
+#q{
+    background-color: rgb(80, 211, 120);
+    width: 600px;
+    font-size: 17px;
+    padding: 14px;
+    margin: auto;
+    border-radius:25px ;
+    
+}  
+#w{
+    background-color: rgb(139, 230, 247);
+    width: 500px;
+    font-size: 16px;
+    padding: 13px;
+    margin: auto;
+    text-indent: 2em;
+    border-radius: 25px ;
+}
+#e{ background-color: rgb(139, 230, 247);
+    width: 500px;
+    font-size: 16px;
+    padding: 13px;
+    margin: auto;
+    text-indent: 2em;
+    border-radius: 25px ;
+
+}
+#r{background-color: rgb(139, 230, 247);
+    width: 500px;
+    font-size: 16px;
+    padding: 13px;
+    margin: auto;
+    text-indent: 2em;
+    border-radius: 25px}
+#t{background-color: rgb(139, 230, 247);
+    width: 500px;
+    font-size: 16px;
+    padding: 13px;
+    margin: auto;
+    text-indent: 2em;
+    border-radius: 25px}
+#y{background-color: rgb(139, 230, 247);
+    width: 500px;
+    font-size: 16px;
+    padding: 13px;
+    margin: auto;
+    text-indent: 2em;
+    border-radius: 25px}
+#u{background-color: rgb(139, 230, 247);
+    width: 500px;
+    font-size: 16px;
+    padding: 13px;
+    margin: auto;
+    text-indent: 2em;
+    border-radius: 25px}
+    #fanhui{
+        font-size: 20px;
+        width: 100px;
+        height: 30px;
+        background-color: aqua;
+        border: 2 solid blue;
+        position: fixed;
+        right: 20%;
+        bottom: 20%;
+    }

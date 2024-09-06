@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background-image: url(body.gif);
+}
+#box{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#footer{
+    text-align: center;
+    background-color: #b2a695;
+    line-height: 25px;
+    padding-top: 20px;    
+}
+.left{
+    float: left;
+}
+#menu{
+    height: 36px;
+    border-top: 8px solid #000;
+}
+#menu a{
+    font-family: "华文新魏";
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    padding: 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+#menu a:hover,#menu a.selected{
+    color: #fff;
+    background-color: #c00;
+}
+#lujing{
+    font-size: 12px;
+    text-align: left;
+    line-height: 35px;
+    background-image: url(navbg.gif);
+    background-repeat: repeat-x;
+    height: 37px;
+}
+#lujing a{
+    color: #333333;
+    text-decoration: none;
+    margin: 0 5px;
+}
+#content{
+    padding: 20px 40px;
+}
+h3,h4,p{
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px dashed #999;
+    line-height: 35px;
+}
+h4{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666;
+}
+#content p{
+    font-size: 12px;
+    text-indent: 2em;
+    line-height: 25px;
+    margin-top: 10px;
+}
+#content img{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    max-height: 400px;
+}
+input,form{
+    margin: 0;
+    padding: 0;
+}
+#header #search{
+    float: right;
+    font-size: 14px;
+    color: #c31103;
+    font-weight: bold;
+    line-height: 30px;
+    margin-right: 20px;
+    display: inline;
+}
+#search img{
+    vertical-align: middle;
+}
+#content #leftlist{
+    width: 208px;
+    float: left;
+    padding-bottom: 22px;
+    background: url(tu/listfoot.gif) no-repeat bottom;
+}
+#listTitle{
+    background-image: url(listhead.webp);
+    background-repeat: no-repeat;
+    line-height: 40px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    height: 48px;
+    
+}
+ #leftlist ul{
+    background-image: url(tu/listmiddle.gif);
+    background-repeat: repeat-y;
+    padding: 10px 0px;
+}
+#leftlist ul li a{
+    text-decoration: none;
+    color: #000;
+}
+#leftlist ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+    line-height: 30px;
+    border-bottom: 1px dashed #4318df;
+    margin: 0 15px;
+    padding-left: 10px;
+}
+#leftlist{
+    width: 200px;
+}
+h2{
+    border-bottom: 1px solid #666;
+    line-height: 30px;
+    font-size: 14px;
+    width: 150px;
+}
+#rightlist{
+    margin-left: 20px;
+    float: left;
+    width: 650px;
+}
+#rightlist ul{
+    border-top: 1px solid #999;
+}
+#rightlist ul li{
+    line-height: 25px;
+    list-style-type: square;
+    list-style-position: inside;
+    border-bottom: 1px dashed #999;
+}
+#rightlist ul li a{
+    text-decoration: none;
+    color: #333;
+}
+#rightlist ul li a:hover{
+    color: #09c;
+}
+input,form{
+    margin: 0;
+    padding: 0;
+}
+.newsTime{
+    float: right;
+}

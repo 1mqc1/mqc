@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background-image: url(body.gif);
+}
+#box{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#footer{
+    text-align: center;
+    background-color: #b2a695;
+    line-height: 25px;
+    padding-top: 20px;    
+}
+.left{
+    float: left;
+}
+#menu{
+    height: 36px;
+    border-top: 8px solid #000;
+}
+#menu a{
+    font-family: "华文新魏";
+    font-size: 14px;
+    color: #000;
+    line-height: 36px;
+    padding: 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+#menu a:hover,#menu a.selected{
+    color: #fff;
+    background-color: #c00;
+}
+#lujing{
+    font-size: 12px;
+    text-align: left;
+    line-height: 35px;
+    background-image: url(navbg.gif);
+    background-repeat: repeat-x;
+    height: 37px;
+}
+#lujing a{
+    color: #333333;
+    text-decoration: none;
+    margin: 0 5px;
+}
